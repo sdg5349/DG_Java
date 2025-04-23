@@ -1,0 +1,13 @@
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+@import url(http://fonts.googleapis.com/earlyaccess/hanna.css);
+* {
+	font-family : 'Nanum Gothic';
+}
+h1 {
+	font-family : 'Hanna';
+}
+.carousel-inner > .item > img {
+    width: auto;
+    height: auto;
+    /* object-fit: cover; */ /* 이미지 비율 유지하면서 부모 요소 채우기 */
+}
